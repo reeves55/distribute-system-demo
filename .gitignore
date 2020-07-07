@@ -1,0 +1,4 @@
+idea/
+target/
+registration-center-nacos/cluster-node1/nacos/data
+registration-center-nacos/cluster-node1/nacos/logs
