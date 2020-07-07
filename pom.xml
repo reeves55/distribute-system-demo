@@ -13,6 +13,7 @@
         <module>service1</module>
         <module>service2</module>
         <module>gateway</module>
+        <module>dependencies</module>
     </modules>
 
 
