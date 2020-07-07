@@ -2,7 +2,7 @@
 
 ##直接单机模式启动
 
-单机模式会把数据存储在本地,如果 ```application.properties``` 当中配置了db的地址等相关信息,则会使用指定的数据库,同时也会在本地derby数据库存储一份
+单机模式会把数据存储在本地derby数据库,如果 ```application.properties``` 当中配置了db的地址等相关信息,则会使用指定的数据库,将数据存储到远程数据库,但同时也会在本地derby数据库存储一份
 
 ```shell script
 ./nacos/bin/startup.sh -m standalone
